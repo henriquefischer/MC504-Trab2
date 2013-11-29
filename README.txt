@@ -14,7 +14,7 @@ _________________________
 #include <sys/types.h>
 #include <signal.h>
 
-int multikill(int sig, pid_t *pids, int length);
+int multikill(pid_t *pids, int length);
 
 
 # Parameters
